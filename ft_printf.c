@@ -6,7 +6,7 @@
 /*   By: etorun <etorun@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 12:11:25 by etorun            #+#    #+#             */
-/*   Updated: 2024/12/24 20:53:41 by etorun           ###   ########.fr       */
+/*   Updated: 2024/12/24 21:08:17 by etorun           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,5 +54,6 @@ int	ft_printf(const char *str, ...)
 		}
 		i++;
 	}
+	va_end(hello);
 	return (counter);
 }
