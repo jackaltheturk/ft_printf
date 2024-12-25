@@ -6,7 +6,7 @@
 /*   By: etorun <etorun@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 16:11:16 by etorun            #+#    #+#             */
-/*   Updated: 2024/12/24 20:44:11 by etorun           ###   ########.fr       */
+/*   Updated: 2024/12/25 15:01:27 by etorun           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,14 +56,10 @@ int	ft_putnbr(int n)
 	return (count);
 }
 
-int	ft_un_sign(unsigned int x)
+int	ft_un_sign(unsigned int nb)
 {
-	unsigned long	nb;
 	int				count;
 
-	nb = x;
-	if (nb < 0)
-		nb = 4294967295 + nb + 1;
 	count = 0;
 	if (nb < 10)
 		count += ft_putchar(nb + 48);
