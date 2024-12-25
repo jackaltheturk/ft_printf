@@ -6,7 +6,7 @@
 /*   By: etorun <etorun@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 16:28:52 by etorun            #+#    #+#             */
-/*   Updated: 2024/12/24 20:53:15 by etorun           ###   ########.fr       */
+/*   Updated: 2024/12/25 15:24:00 by etorun           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_putchar(int x);
 int	ft_putstr(char *str);
 int	ft_putnbr(int n);
 int	ft_hexa(unsigned int z, char *list);
-int	ft_un_sign(unsigned int x);
+int	ft_un_sign(unsigned int nb);
 int	ft_printp(unsigned long x, char *list);
 int	ft_printp2(unsigned long x, char *list);
 int	ft_conveyer(va_list *stuff, int ch);
